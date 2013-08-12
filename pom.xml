@@ -143,7 +143,7 @@
                             </publisher>
                             <buildInfo>
                                 <buildName>{buildName}</buildName>
-                                <buildNumber>{buildNumber}</buildNumber>
+                                <buildNumber>{BUILD_NUMBER}</buildNumber>
                                 <buildUrl>{CI_BUILD_URL|BUILD_URL}</buildUrl>
                                 <buildNumber>{CI_BUILD_NUMBER|BUILD_NUMBER}</buildNumber>
                                 <agentName>{CI_NAME|teamcity}</agentName>
