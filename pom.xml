@@ -149,6 +149,12 @@
                                 <agentName>{CI_NAME|teamcity}</agentName>
                                 <principal>{CI_COMMITTER_USERNAME|ARTIFACTORY_USERNAME}</principal>
                             </buildInfo>
+                            <resolver>
+  
+  <contextUrl>http://10.0.0.143:8081/artifactory</contextUrl>
+  
+  </resolver>
+
                         </configuration>
                     </execution>
                 </executions>
