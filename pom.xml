@@ -183,7 +183,7 @@
         <pluginRepository>
             <id>goldin-snapshots</id>
             <name>goldin-plugins-snapshots</name>
-            <url>http://evgenyg.artifactoryonline.com/evgenyg/libs-snapshots</url>
+            <url>http://repo.jfrog.org/artifactory/remote-repos</url>
         </pluginRepository>
     </pluginRepositories>
 </project>
