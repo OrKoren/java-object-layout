@@ -179,11 +179,42 @@
         </dependency>
     </dependencies>
     <!--TODO remove once the plugin is on central-->
-    <pluginRepositories>
+   <profiles>
+    <profile>
+      <repositories>
+        <repository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>libs-release</name>
+          <url>http://oss.jfrog.org/artifactory/libs-release</url>
+        </repository>
+        <repository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>libs-snapshot</name>
+          <url>http://oss.jfrog.org/artifactory/libs-snapshot</url>
+        </repository>
+      </repositories>
+      <pluginRepositories>
         <pluginRepository>
-            <id>myblabla</id>
-            <name>goldin-plugins-snapshots</name>
-            <url>http://repo.jfrog.org/artifactory/remote-repos</url>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>plugins-release</name>
+          <url>http://oss.jfrog.org/artifactory/plugins-release</url>
         </pluginRepository>
-    </pluginRepositories>
+        <pluginRepository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>plugins-snapshot</name>
+          <url>http://oss.jfrog.org/artifactory/plugins-snapshot</url>
+        </pluginRepository>
+      </pluginRepositories>
+      <id>or</id>
+    </profile>
+  </profiles>
+
 </project>
