@@ -181,7 +181,7 @@
     <!--TODO remove once the plugin is on central-->
     <pluginRepositories>
         <pluginRepository>
-            <id>goldin-snapshots</id>
+            <id>myblabla</id>
             <name>goldin-plugins-snapshots</name>
             <url>http://repo.jfrog.org/artifactory/remote-repos</url>
         </pluginRepository>
